@@ -1,0 +1,20 @@
+# server
+@server = http://localhost:3000
+
+### TEST HOLA MUNDO
+GET {{server}}/notifications
+
+###
+GET {{server}}/process
+
+###
+GET {{server}}/personas/create
+
+###
+GET {{server}}/personas/update
+
+###
+GET {{server}}/personas/find/3
+
+###
+GET {{server}}/personas/all
